@@ -23,9 +23,9 @@ function iLoveTheBeatles(int) {
   let i = 0; 
   do {
     beatles.push("I love the Beatles!")
+    i++;
   }
   while(i < int && i < 15);
-  i++;
   
   return beatles;
 }
